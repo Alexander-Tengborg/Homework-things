@@ -92,7 +92,7 @@ public class myLibrary {
         return 1000 * 9.82 * depth;
     }
 
-    //-gt + v = -gravitation *
+    //sqrt(2gh)
     public static double fallSpeed(double height) {
         return Math.sqrt(2*9.82*height);
     }
