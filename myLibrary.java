@@ -94,7 +94,7 @@ public class myLibrary {
 
     //-gt + v = -gravitation *
     public static double fallSpeed(double height) {
-        return height;
+        return Math.sqrt(2*9.82*height);
     }
 
     public static double fahrenheitToCelsius(double fahrenheit) {
