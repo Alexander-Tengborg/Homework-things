@@ -89,7 +89,7 @@ public class myLibrary {
 
     //tryck = PGH - densitet * gravitation * höjd/djup = vattnets tryck (atmosfärens tryck är ej inkluderat (+ca 101,3))
     public static double pressureUnderWater(double depth) {
-        return 1000 * 9.82 * depth;
+        return 998 * 9.82 * depth;
     }
 
     //sqrt(2gh)
